@@ -3,17 +3,17 @@ var canh;
 var giaoDiem;
 window.onload = async function() {
   const responseCanh = await fetch(
-    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/canh.json"
+    "https://raw.githubusercontent.com/lehaison18302/Maps/main/canh.json"
   );
   const jsonDataCanh = await responseCanh.json();
   canh = jsonDataCanh;
   const responseDuong = await fetch(
-    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/duong.json"
+    "https://raw.githubusercontent.com/lehaison18302/Maps/main/duong.json"
   );
   const jsonDataDuong = await responseDuong.json();
   duong = jsonDataDuong;
   const responseGD = await fetch(
-    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/giao_diem.json"
+    "https://raw.githubusercontent.com/lehaison18302/Maps/main/giao_diem.json"
   );
   const jsonDataGD = await responseGD.json();
   giaoDiem = jsonDataGD;
@@ -42,17 +42,13 @@ function updateDuong(duongVal) {
   })
 
   var html_code = '<option value="">Không</option>';
-  // TODO: REMOVE DEBUG vvv
   console.log(duongVal);
-  // TODO: REMOVE DEBUG ^^^
   soNha = []
   $.each(canhID, function (index, value) {
     curID = value;
-    // TODO: REMOVE DEBUG vvv
     console.log(curID);
     console.log(canh[curID-1].id);
     console.log(canh[curID-1].listSoNha);
-    // TODO: REMOVE DEBUG ^^^
     $.each(canh[curID-1].listSoNha, function (index, value) {
       soNha.push(value);
     })
@@ -172,7 +168,6 @@ function calcPos(soNha, canhID) {
   var diem2 = canh[canhID - 1].dinh[1];
   var pixelLengthX = giaoDiem[diem2 - 1].toaDo[0] - giaoDiem[diem1 - 1].toaDo[0];
   var pixelLengthY = giaoDiem[diem2 - 1].toaDo[1] - giaoDiem[diem1 - 1].toaDo[1];
-  //super jank
   var x = Math.round(giaoDiem[diem1 - 1].toaDo[0] + (pixelLengthX/length)*targetIndex);
   var y = Math.round(giaoDiem[diem1 - 1].toaDo[1] + (pixelLengthY/length)*targetIndex);
   return {'x': x, 'y': y};

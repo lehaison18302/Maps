@@ -1,13 +1,5 @@
-body{
-  background-color: rgb(200, 218, 182) ; /* Đặt màu nền cho toàn bộ trang */
-  
-  body *:not(menu) {
-  background-color: rgb(200, 218, 182); /* Đặt màu nền cho tất cả các phần tử trừ hình ảnh, đối tượng, video, iframe và âm thanh */
-  }
-}
-
 #main {
-  margin-top: 45px;
+  margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row;
@@ -19,8 +11,9 @@ body{
   position: fixed;
   top: 100px;
   left: 50px;
-  background-color: rgb(213, 232, 236);
+  background-color: whitesmoke;
   height: 500px;
+  background-color: white;
   width: 290px;
   margin-right: 50px;
   border: solid silver;

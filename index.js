@@ -1,19 +1,19 @@
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 function drawRoad(listPoints) {
-  ctx.clearRect(0, 0, 10000, 100000); // Xóa các đường vẽ cũ trên bản vẽ canvas
+  ctx.clearRect(0, 0, 10000, 100000); // Xóa đường vẽ cũ
   ctx.beginPath();
   ctx.shadowBlur = 10;
   ctx.shadowColor = "red";
-  ctx.lineWidth = 5; // Đặt giá trị độ rộng cho đường vẽ.
-  ctx.strokeStyle = "red"; // Đặt giá trị màu cho đường vẽ
-  ctx.moveTo(listPoints[0].x, listPoints[0].y); // Di chuyển điểm vẽ đến tọa độ vị trí điểm xuất phát
+  ctx.lineWidth = 5; // độ rộng nét
+  ctx.strokeStyle = "red"; // màu nét
+  ctx.moveTo(listPoints[0].x, listPoints[0].y); // Di chuyển đến điểm xp
   for (var i = 1; i < listPoints.length; i++) {
-    ctx.lineTo(listPoints[i].x, listPoints[i].y); // Vẽ đường lần lượt đến tường điểm tiếp theo trên đường đi cho tới điểm cuối cùng.
+    ctx.lineTo(listPoints[i].x, listPoints[i].y); // Vẽ lần lượt 
   }
   ctx.stroke();
 
-  // Vẽ điểm xuất phát
+  // điểm đầu
   ctx.beginPath();
   ctx.arc(listPoints[0].x, listPoints[0].y, 5, 0, 2 * Math.PI);
   ctx.lineWidth = 6;
@@ -24,7 +24,7 @@ function drawRoad(listPoints) {
   ctx.fillStyle = "blue";
   ctx.fill();
 
-  // Vẽ điểm đích
+  // điểm cuối
   ctx.beginPath();
   ctx.arc(
     listPoints[listPoints.length - 1].x,
@@ -48,7 +48,6 @@ class PriorityQueue {
     this.heap = [];
   }
 
-  // Helper Methods
   getLeftChildIndex(parentIndex) {
     return 2 * parentIndex + 1;
   }
@@ -98,9 +97,6 @@ class PriorityQueue {
     return this.heap[0];
   }
 
-  // Removing an element will remove the
-  // top element with highest priority then
-  // heapifyDown will be called
   remove() {
     if (this.heap.length === 0) {
       return null;
@@ -117,8 +113,6 @@ class PriorityQueue {
     this.heapifyUp();
   }
 
-  // Việc sắp xếp các đỉnh trong tập mở được dựa trên giá trị f của đỉnh
-  // đỉnh nào có f nhỏ nhất thì nằm ở đầu.
   heapifyUp() {
     let index = this.heap.length - 1;
     while (this.hasParent(index) && this.parent(index).f > this.heap[index].f) {
@@ -155,7 +149,6 @@ function findRoad(startName, endName, jsonData) {
   console.log(goal);
 
   function reconstruct_path(cameFrom, current) {
-    // Hàm ghi nhận kết quả trả ra danh sách các đỉnh cần đi qua theo đúng thứ tự
     var dinh = current.tenDinh;
     var total_path = [dinh];
     while (dinh != cameFrom[dinh]) {
@@ -166,68 +159,57 @@ function findRoad(startName, endName, jsonData) {
     return total_path;
   }
 
-  // Khai triển thuật toán A*
+  //A*
   function A_Star(start, goal, h) {
     var openSet = new PriorityQueue();
     var cameFrom = [];
-    var gScore = []; // Mảng dùng để lưu giá trị g(n);
-    var fScore = []; // Mảng dùng để luw giá trị f(n);
+    var gScore = []; 
+    var fScore = []; 
 
-    // Khởi tạo các giá trị đầu cho thuật toán.
     dinhs.forEach((dinh) => {
-      // Đặt đường đi đi từ điểm xuất phát đến điểm đích mà đi qua "dinh" là vô cùng.
-      fScore[dinh.tenDinh] = 10000000;
-      // Đặt đường đi đi từ điểm xuất phát đến điểm "dinh" là vô cùng.
-      gScore[dinh.tenDinh] = 10000000;
+      fScore[dinh.tenDinh] = 1000000;
+      gScore[dinh.tenDinh] = 1000000;
     });
-    gScore[start.tenDinh] = 0; // g(đỉnh xuất phát)  = 0
-    fScore[start.tenDinh] = h(start); //
+    gScore[start.tenDinh] = 0; 
+    fScore[start.tenDinh] = h(start); 
     cameFrom[start.tenDinh] = start.tenDinh;
-    openSet.add({ dinh: start, f: fScore[start.tenDinh] }); // Ban đầu tập mở chỉ bao gồm đỉnh xuất phát.
+    openSet.add({ dinh: start, f: fScore[start.tenDinh] }); 
     var isInOpenSet = [];
     isInOpenSet[start.tenDinh] = true;
 
     while (openSet.peek() != null) {
-      // Lặp cho đến khi tập mở rỗng.
-      var current = openSet.peek(); // Lấy đỉnh có f(n) nhỏ nhất trong tập mở.
+      var current = openSet.peek(); 
       current = current.dinh;
       if (current === goal) {
-        // Nếu đỉnh vừa lấy ra trùng đỉnh đính thì ta có được kết quả đường đi.
-        return [reconstruct_path(cameFrom, current), fScore[goal.tenDinh]]; // gọi hàm ghi nhận kết quả và thoát vòng lặp.
+        return [reconstruct_path(cameFrom, current), fScore[goal.tenDinh]]; 
       }
-      openSet.remove(); // Xóa đỉnh đó ra khỏi tập mở;
+      openSet.remove(); 
       isInOpenSet[current.tenDinh] = false;
       current.listDinhKe.forEach(({ tenDinh, doDai }) => {
-        // Duyệt qua tất cả các đường đi tới các đỉnh kề của đỉnh đang xét.
         var neighbor = dinhs[tenDinh - 1];
-        var tentative_gScore = gScore[current.tenDinh] + doDai; // Tính g(n) là độ dài đường đi nếu đi qua đỉnh hàng xóm này.
+        var tentative_gScore = gScore[current.tenDinh] + doDai; 
         if (tentative_gScore < gScore[neighbor.tenDinh]) {
-          // Nếu g() mới nhỏ hơn g() cũ thì cập nhật g() của đỉnh hàng xóm này và cập nhật lại đỉnh trước của đỉnh hàng xóm này.
           cameFrom[neighbor.tenDinh] = current.tenDinh;
           gScore[neighbor.tenDinh] = tentative_gScore;
-          fScore[neighbor.tenDinh] = tentative_gScore + h(neighbor); // Tính h() cho đỉnh hàng xóm.
+          fScore[neighbor.tenDinh] = tentative_gScore + h(neighbor); 
           if (!isInOpenSet[neighbor.tenDinh]) {
-            // Nếu đỉnh hàng xóm không có trong danh sách mở thì thêm vào.
             openSet.add({ dinh: neighbor, f: fScore[neighbor.tenDinh] });
             isInOpenSet[neighbor.tenDinh] = true;
           }
         }
-        // Open set is empty but goal was never reached
         return null;
       });
     }
   }
 
-  // H(n)
   function h(dinh) {
-    // goal là đỉnh đích được lưu trong closure của hàm bên ngoài.
     var dx = dinh.toaDo[0] - goal.toaDo[0];
     var dy = dinh.toaDo[1] - goal.toaDo[1];
     return Math.sqrt(dx * dx + dy * dy);
   }
 
   var result = A_Star(start, goal, h);
-  var roadLength = result[1]; // do dai duong di day
+  var roadLength = result[1]; 
   var roadPoints = result[0];
   var listPoints = [];
   roadPoints.forEach((e) => {
@@ -238,7 +220,7 @@ function findRoad(startName, endName, jsonData) {
 
 async function getJSONData() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/giao_diem.json"
+    "https://raw.githubusercontent.com/lehaison18302/Maps/main/giao_diem.json"
   );
   var jsonData = await response.json();
   var btn = document.getElementById("search");
