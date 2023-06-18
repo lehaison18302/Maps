@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(200, 218, 182) ; /* Đặt màu nền cho toàn bộ trang */
+  
+  body *:not(menu) {
+  background-color: rgb(200, 218, 182); /* Đặt màu nền cho tất cả các phần tử trừ hình ảnh, đối tượng, video, iframe và âm thanh */
+  }
+}
+
+#main {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  background-color: rgb(213, 232, 236);
+  height: 500px;
+  width: 290px;
+  margin-right: 50px;
+  border: solid silver;
+  box-shadow: 5px 5px 5px silver;
+  z-index: 2;
+  padding: 10px;
+}
+.input-group {
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+  max-width: auto;
+}
+.input-section {
+  display: grid;
+  grid-template-columns: 90px 180px;
+  column-gap: 20px;
+  max-width: auto;
+}
+.debug-group {
+  display: grid;
+  grid-template-columns: repeat(6, 40px);
+  gap: 10px;
+  max-width: auto;
+}
+.debug-input {
+  grid-column: span 3;
+}
+.debug-buttons {
+  grid-column: span 2;
+}
+#board {
+  margin-left: 300px;
+  position: relative;
+  width: 1000px;
+  height: 900px;
+}
+#image {
+  position: absolute;
+  border: solid silver;
+  box-shadow: 5px 5px 5px silver;
+}
+.canvas {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+}

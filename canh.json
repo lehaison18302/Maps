@@ -1,0 +1,590 @@
+[
+  {
+    "canh": 1,
+    "giaoDiem": [1,2],
+    "motChieu": true,
+    "listSoNha": [31,33,35,37,39]
+  },
+  {
+    "canh": 2,
+    "giaoDiem": [2,5],
+    "motChieu": false,
+    "listSoNha": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+  },
+  {
+    "canh": 3,
+    "giaoDiem": [3,4],
+    "motChieu": false,
+    "listSoNha": [39,41]
+  },
+  {
+    "canh": 4,
+    "giaoDiem": [4,5],
+    "motChieu": false,
+    "listSoNha": [43,54]
+  },
+  {
+    "canh": 5,
+    "giaoDiem": [5,6],
+    "motChieu": false,
+    "listSoNha": [40]
+  },
+  {
+    "canh": 6,
+    "giaoDiem": [6,7],
+    "motChieu": false,
+    "listSoNha": [49,56,58,60]
+  },
+  {
+    "canh": 7,
+    "giaoDiem": [7,8],
+    "motChieu": false,
+    "listSoNha": [62,64,66,68]
+  },
+  {
+    "canh": 8,
+    "giaoDiem": [8,9],
+    "motChieu": true,
+    "listSoNha": [40,41]
+  },
+  {
+    "canh": 9,
+    "giaoDiem": [9,10],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 10,
+    "giaoDiem": [9,11],
+    "motChieu": true,
+    "listSoNha": [42,43,44,45,46]
+  },
+  {
+    "canh": 11,
+    "giaoDiem": [7,11],
+    "motChieu": true,
+    "listSoNha": [65,66]
+  },
+  {
+    "canh": 12,
+    "giaoDiem": [11,12],
+    "motChieu": true,
+    "listSoNha": [64,63]
+  },
+  {
+    "canh": 13,
+    "giaoDiem": [12,13],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 14,
+    "giaoDiem": [12,22],
+    "motChieu": true,
+    "listSoNha": [60,61,62]
+  },
+  {
+    "canh": 15,
+    "giaoDiem": [11,14],
+    "motChieu": true,
+    "listSoNha": [50,51,52]
+  },
+  {
+    "canh": 16,
+    "giaoDiem": [6,14],
+    "motChieu": false,
+    "listSoNha": [1]
+  },
+  {
+    "canh": 17,
+    "giaoDiem": [14,17],
+    "motChieu": true,
+    "listSoNha": []
+  },
+  {
+    "canh": 18,
+    "giaoDiem": [3,15],
+    "motChieu": false,
+    "listSoNha": [2,3,4,5,6]
+  },
+  {
+    "canh": 19,
+    "giaoDiem": [15,16],
+    "motChieu": false,
+    "listSoNha": [49,50,51,52,53,54,55,56,57,58,59]
+  },
+  {
+    "canh": 20,
+    "giaoDiem": [4,16],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 21,
+    "giaoDiem": [16,17],
+    "motChieu": false,
+    "listSoNha": [46,47,48]
+  },
+  {
+    "canh": 22,
+    "giaoDiem": [17,18],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 23,
+    "giaoDiem": [18,79],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 24,
+    "giaoDiem": [17,19],
+    "motChieu": false,
+    "listSoNha": [63,64,65]
+  },
+  {
+    "canh": 25,
+    "giaoDiem": [19,20],
+    "motChieu": false,
+    "listSoNha": [66]
+  },
+  {
+    "canh": 26,
+    "giaoDiem": [20,21],
+    "motChieu": false,
+    "listSoNha": [11,12]
+  },
+  {
+    "canh": 27,
+    "giaoDiem": [21,80],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 28,
+    "giaoDiem": [20,22],
+    "motChieu": false,
+    "listSoNha": [60,61,62]
+  },
+  {
+    "canh": 29,
+    "giaoDiem": [22,23],
+    "motChieu": false,
+    "listSoNha": [73,74,75,76]
+  },
+  {
+    "canh": 30,
+    "giaoDiem": [23,25],
+    "motChieu": false,
+    "listSoNha": [72]
+  },
+  {
+    "canh": 31,
+    "giaoDiem": [23,24],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 32,
+    "giaoDiem": [25,26],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 33,
+    "giaoDiem": [26,81],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 34,
+    "giaoDiem": [25, 27],
+    "motChieu": false,
+    "listSoNha": [67, 68, 69, 70]
+  },
+  {
+    "canh": 35,
+    "giaoDiem": [27, 28],
+    "motChieu": false,
+    "listSoNha": [77, 78, 79, 80, 81, 82, 83]
+  },
+  {
+    "canh": 36,
+    "giaoDiem": [27, 29],
+    "motChieu": false,
+    "listSoNha": [71]
+  },
+  {
+    "canh": 37,
+    "giaoDiem": [17, 30],
+    "motChieu": false,
+    "listSoNha": [2, 3, 4, 5, 6, 7, 8]
+  },
+  {
+    "canh": 38,
+    "giaoDiem": [30, 31],
+    "motChieu": false,
+    "listSoNha": [1,2, 3, 4, 5, 6, 7]
+  },
+  {
+    "canh": 39,
+    "giaoDiem": [17, 32],
+    "motChieu": true,
+    "listSoNha": [64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 , 80, 81, 82]
+  },
+  {
+    "canh": 40,
+    "giaoDiem": [32, 33],
+    "motChieu": false,
+    "listSoNha": [80, 81, 82]
+  },
+  {
+    "canh": 41,
+    "giaoDiem": [32, 34],
+    "motChieu": true,
+    "listSoNha": [83, 84, 85, 86, 87]
+  },
+  {
+    "canh": 42,
+    "giaoDiem": [15, 34],
+    "motChieu": false,
+    "listSoNha": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  },
+  {
+    "canh": 43,
+    "giaoDiem": [34, 35],
+    "motChieu": true,
+    "listSoNha": [88, 89, 90, 91, 92]
+  },
+  {
+    "canh": 44,
+    "giaoDiem": [35, 36],
+    "motChieu": false,
+    "listSoNha": [59, 60, 61, 62, 63, 64, 65, 69]
+  },
+  {
+    "canh": 45,
+    "giaoDiem": [34, 36],
+    "motChieu": false,
+    "listSoNha": [25]
+  },
+  {
+    "canh": 46,
+    "giaoDiem": [36, 37],
+    "motChieu": false,
+    "listSoNha": [66, 67, 68]
+  },
+  {
+    "canh": 47,
+    "giaoDiem": [37, 38],
+    "motChieu": false,
+    "listSoNha": [77, 78, 79, 81]
+  },
+  {
+    "canh": 48,
+    "giaoDiem": [38, 39],
+    "motChieu": false,
+    "listSoNha":[72]
+  },
+  {
+    "canh": 49,
+    "giaoDiem": [],
+    "motChieu": false,
+    "listSoNha": [73, 74, 75]
+  },
+  {
+    "canh": 50,
+    "giaoDiem": [40, 41],
+    "motChieu": false,
+    "listSoNha": [76]
+  },
+  {
+    "canh": 51,
+    "giaoDiem": [40, 42],
+    "motChieu": false,
+    "listSoNha": [76]
+  },
+  {
+    "canh": 52,
+    "giaoDiem": [30, 42],
+    "motChieu": false,
+    "listSoNha": [9, 10]
+  },
+  {
+    "canh": 53,
+    "giaoDiem": [42, 43],
+    "motChieu": false,
+    "listSoNha": [80]
+  },
+  {
+    "canh": 54,
+    "giaoDiem": [43, 44],
+    "motChieu": true,
+    "listSoNha": [115]
+  },
+  {
+    "canh": 55,
+    "giaoDiem": [22, 44],
+    "motChieu": false,
+    "listSoNha": [73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+  },
+  {
+    "canh": 56,
+    "giaoDiem": [36, 45],
+    "motChieu": false,
+    "listSoNha": [27, 28]
+  },
+  {
+    "canh": 57,
+    "giaoDiem": [45, 46],
+    "motChieu": false,
+    "listSoNha": [1,2 ,3,4, 5, 6, 7]
+  },
+  {
+    "canh": 58,
+    "giaoDiem": [37, 46],
+    "motChieu": false,
+    "listSoNha": [8, 9, 10]
+  },
+  {
+    "canh": 59,
+    "giaoDiem": [47, 48],
+    "motChieu": false,
+    "listSoNha": [2, 3,4, 5, 6, 7, 8, 9, 10, 11]
+  },
+  {
+    "canh": 60,
+    "giaoDiem": [48, 50],
+    "motChieu": false,
+    "listSoNha": [1,2, 3, 4, 5]
+  },
+  {
+    "canh": 61,
+    "giaoDiem": [50, 51],
+    "motChieu": false,
+    "listSoNha": [6]
+  },
+  {
+    "canh": 62,
+    "giaoDiem": [48, 49],
+    "motChieu": false,
+    "listSoNha": [12, 13, 14, 15, 16, 17, 18, 19, 20]
+  },
+  {
+    "canh": 63,
+    "giaoDiem": [45, 49],
+    "motChieu": false,
+    "listSoNha": [29, 30, 31, 32, 33]
+  },
+  {
+    "canh": 64,
+    "giaoDiem": [46, 55],
+    "motChieu": false,
+    "listSoNha": [11, 12, 13, 14]
+  },
+  {
+    "canh": 65,
+    "giaoDiem": [49, 52],
+    "motChieu": false,
+    "listSoNha": [24, 26]
+  },
+  {
+    "canh": 66,
+    "giaoDiem": [52, 53],
+    "motChieu": false,
+    "listSoNha": [22, 24]
+  },
+  {
+    "canh": 67,
+    "giaoDiem": [53, 54],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 68,
+    "giaoDiem": [53,55],
+    "motChieu": false,
+    "listSoNha": [ 17, 18, 19, 20, 21]
+  },
+  {
+    "canh": 69,
+    "giaoDiem": [55,56],
+    "motChieu": false,
+    "listSoNha": [15, 16, 23 ]
+  },
+  {
+    "canh": 70,
+    "giaoDiem": [56,57],
+    "motChieu": false,
+    "listSoNha": [25, 26, 27, 28, 29, 30]
+  },
+  {
+    "canh": 71,
+    "giaoDiem": [57,62],
+    "motChieu": false,
+    "listSoNha": [31, 32, 33, 34]
+  },
+  {
+    "canh": 72,
+    "giaoDiem": [58,59],
+    "motChieu": false,
+    "listSoNha": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 50, 51, 52, 53, 54]
+  },
+  {
+    "canh": 73,
+    "giaoDiem": [50,59],
+    "motChieu": false,
+    "listSoNha": [6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+  },
+  {
+    "canh": 74,
+    "giaoDiem": [59,60],
+    "motChieu": false,
+    "listSoNha": [47, 49, 55, 56, 57, 58 ]
+  },
+  {
+    "canh": 75,
+    "giaoDiem": [52,60],
+    "motChieu": false,
+    "listSoNha": [34, 35, 36, 37, 39 ]
+  },
+  {
+    "canh": 76,
+    "giaoDiem": [60,61],
+    "motChieu": false,
+    "listSoNha": [59, 60, 61, 62, 63, 64]
+  },
+  {
+    "canh": 77,
+    "giaoDiem": [61,62],
+    "motChieu": false,
+    "listSoNha": [ 65, 66, 67, 68]
+  },
+  {
+    "canh": 78,
+    "giaoDiem": [62,63],
+    "motChieu": false,
+    "listSoNha": [69, 70, 71, 72, 73, 74, 75, 76]
+  },
+  {
+    "canh": 79,
+    "giaoDiem": [82,64],
+    "motChieu": false,
+    "listSoNha": [1, 2, 3, 4, 5]
+  },
+  {
+    "canh": 80,
+    "giaoDiem": [63,64],
+    "motChieu": false,
+    "listSoNha": [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40 ]
+  },
+  {
+    "canh": 81,
+    "giaoDiem": [63,65],
+    "motChieu": false,
+    "listSoNha": [77, 78, 79, 80, 81]
+  },
+  {
+    "canh": 82,
+    "giaoDiem": [65,66],
+    "motChieu": false,
+    "listSoNha": [1, 2, 3, 4, 5, 6, 7 ,8 ,9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+  },
+  {
+    "canh": 83,
+    "giaoDiem": [65,67],
+    "motChieu": false,
+    "listSoNha": [82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
+  },
+  {
+    "canh": 84,
+    "giaoDiem": [43,67],
+    "motChieu": false,
+    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 19, 21]
+  },
+  {
+    "canh": 85,
+    "giaoDiem": [68,67],
+    "motChieu": false,
+    "listSoNha": [93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105]
+  },
+  {
+    "canh": 86,
+    "giaoDiem": [69,70],
+    "motChieu": false,
+    "listSoNha": [33,35]
+  },
+  {
+    "canh": 87,
+    "giaoDiem": [69,59],
+    "motChieu": false,
+    "listSoNha": [27, 28, 29, 30, 31, 32, 34]
+  },
+  {
+    "canh": 88,
+    "giaoDiem": [72,73],
+    "motChieu": false,
+    "listSoNha": [43, 45, 47]
+  },
+  {
+    "canh": 89,
+    "giaoDiem": [60,71],
+    "motChieu": false,
+    "listSoNha": [38, 40, 41, 42]
+  },
+  {
+    "canh": 90,
+    "giaoDiem": [73,71],
+    "motChieu": false,
+    "listSoNha": [95]
+  },
+  {
+    "canh": 91,
+    "giaoDiem": [73,74],
+    "motChieu": false,
+    "listSoNha": [1, 2, 3, 4]
+  },
+  {
+    "canh": 92,
+    "giaoDiem": [61,74],
+    "motChieu": false,
+    "listSoNha": []
+  },
+  {
+    "canh": 93,
+    "giaoDiem": [75,74],
+    "motChieu": false,
+    "listSoNha": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  },
+  {
+    "canh": 94,
+    "giaoDiem": [75,63],
+    "motChieu": false,
+    "listSoNha": [39, 41, 42, 43, 44, 45, 46, 47, 48]
+  },
+  {
+    "canh": 95,
+    "giaoDiem": [75,76],
+    "motChieu": false,
+    "listSoNha": [16, 17, 18, 19, 20,21, 22, 23, 24, 25, 26, 27, 28, 29]
+  },
+  {
+    "canh": 96,
+    "giaoDiem": [67,76],
+    "motChieu": false,
+    "listSoNha": [22, 23, 24, 25, 26]
+  },
+  {
+    "canh": 97,
+    "giaoDiem": [77,76],
+    "motChieu": false,
+    "listSoNha": [27]
+  },
+  {
+    "canh": 98,
+    "giaoDiem": [77,78],
+    "motChieu": false,
+    "listSoNha": [14, 16]
+  }
+]

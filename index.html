@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximun-scale=1.0,user-scalable=1"
+    />
+    <title>Phường Quốc Tử Giám</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="menu">
+        <div class="input-group" id="start-group">
+          <label>Điểm đầu:</label>
+          <div class="input-section" id="Duong-start-section">
+            <label>Tên đường</label>
+            <input type="text" id="Duong-start-section"/>
+          </div>
+          <div class="input-section" id="Ngo-start-section">
+            <label>Tên ngõ</label>
+            <input type="text" id="Ngo-start-section"/>
+          </div>
+          <div class="input-section" id="SoNha-start-section">
+            <label>Số nhà</label>
+            <input type="text" id="SoNha-start-section"/>
+          </div>
+        </div>
+        </br>
+        <div class="input-group" id="end-group">
+          <label>Điểm cuối:</label>
+          <div class="input-section" id="Duong-end-section">
+            <label>Tên đường</label>
+            <input type="text" id="Duong-end-section"/>
+          </div>
+          <div class="input-section" id="Ngo-end-section">
+            <label>Tên ngõ</label>
+            <input type="text" id="Ngo-end-section"/>
+          </div>
+          <div class="input-section" id="SoNha-end-section">
+            <label>Số nhà</label>
+            <input type="text" id="SoNha-end-section"/>
+          </div>
+        </div>
+        </br>
+        <button id="submit">Submit</button>
+        </br>
+        </br> 
+<!--       <label>DEBUG:</label> -->
+        <div class="debug-group">
+<!--        <input class="debug-input" type="number" id="startName"/> -->
+<!--          <input class="debug-input" type="number" id="endName"/> -->
+          <button class="debug-buttons" id="search">Search</button>
+<!--       <button class="debug-buttons" id="toggle_btn">Bật/tắt điểm</button> -->
+          <button class="debug-buttons" id="delete_canvas">Xóa đường đi</button>
+        </div>
+      </div>
+      <br />
+      <div id="board">
+        <img id="image" src="goc.png" />
+        <canvas class="canvas" id="point" width="900px" height="900px"></canvas>
+        <canvas
+          class="canvas"
+          id="myCanvas"
+          width="900px"
+          height="900px"
+        ></canvas>
+      </div>
+    </div>
+  </body>
+  <script src="./test.js"></script>
+  <script src="./index.js"></script>
+  <script src="./input.js"></script>
+</html>
