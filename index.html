@@ -15,28 +15,18 @@
   <body>
     <div id="main">
       <div id="menu">
-        <div class="input-group" id="start-group">
-          <label>Điểm đầu:</label>
-          <div></div>
-          <div class="input-section" id="Duong-start-section">
-            <label for="Duong-start">Đường:</label>
-            <select class="input" id="Duong-start">
-              <option value="" selected>Không</option>
-            </select>
+        <form action = "#" method="post" name="timkiem">
+          <div class="TimKiem" id="search">
+            <label for="tenduong">Tên Đường: </label> <br>
+            <input id="tenduong" type="text" name="Tên Đường">
           </div>
-          <div class="input-section" id="Ngo-start-section">
-            <label for="Ngo-start">Ngõ:</label>
-            <select class="input" id="Ngo-start">
-              <option value="" selected>Không</option>
-            </select>
+          <div class="KetQua" id="result">
+            <label for="ketqua">Kết quả: </label> <br>
+            <table>
           </div>
-          <div class="input-section" id="SoNha-start-section">
-            <label for="SoNha-start">Số nhà:</label>
-            <select class="input" id="SoNha-start">
-              <option value="" selected>Không</option>
-            </select>
-          </div>
-        </div>
+        </form>
+        
+      </div>
         </br>
         <div class="input-group" id="end-group">
           <label>Điểm cuối:</label>
@@ -67,7 +57,7 @@
         <div class="debug-group">
           <button class="debug-buttons" id="delete_canvas">Xóa đường đi</button>
         </div>
-      </div>
+      </div>   
       <br />
       <div id="board">
         <img id="image" src="goc.png" />
@@ -81,6 +71,7 @@
       </div>
     </div>
   </body>
+
   <script src="./test.js"></script>
   <script src="./index.js"></script>
   <script src="./input.js"></script>

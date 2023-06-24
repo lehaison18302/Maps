@@ -1,344 +1,408 @@
 [
-  {
-    "canh": 1,
-    "giaoDiem": [1,2],
-    "motChieu": false,
-    "listSoNha": [59]
-  },
-  {
-    "canh": 2,
-    "giaoDiem": [2,3],
-    "motChieu": false,
-    "listSoNha": [61]
-  },
-  {
-    "canh": 3,
-    "giaoDiem": [2,4],
-    "motChieu": false,
-    "listSoNha": [63]
-  },
-  {
-    "canh": 4,
-    "giaoDiem": [4,5],
-    "motChieu": false,
-    "listSoNha": [65, 67, 69]
-  },
-  {
-    "canh": 5,
-    "giaoDiem": [4,6],
-    "motChieu": false,
-    "listSoNha": [1,3,5,7,9]
-  },
-  {
-    "canh": 6,
-    "giaoDiem": [6,7],
-    "motChieu": false,
-    "listSoNha": [49,56,58,60]
-  },
-  {
-    "canh": 7,
-    "giaoDiem": [7,8],
-    "motChieu": false,
-    "listSoNha": []
-  },
-  {
-    "canh": 8,
-    "giaoDiem": [8,9],
-    "motChieu": false,
-    "listSoNha": [11,13,15,17,19]
-  },
-  {
-    "canh": 9,
-    "giaoDiem": [8,10],
-    "motChieu": false,
-    "listSoNha": [2,4,6,8,10, 11]
-  },
-  {
-    "canh": 10,
-    "giaoDiem": [10,11],
-    "motChieu": false,
-    "listSoNha": [10]
-  },
-  {
-    "canh": 11,
-    "giaoDiem": [10,12],
-    "motChieu": false,
-    "listSoNha": [12,26,34]
-  },
-  {
-    "canh": 12,
-    "giaoDiem": [12,13],
-    "motChieu": false,
-    "listSoNha": []
-  },
-  {
-    "canh": 13,
-    "giaoDiem": [12,30],
-    "motChieu": false,
-    "listSoNha": [48,40,32,31, 30, 19, 37]
-  },
-  {
-    "canh": 14,
-    "giaoDiem": [14,46],
-    "motChieu": false,
-    "listSoNha": [7,9,10,11]
-  },
-  {
-    "canh": 15,
-    "giaoDiem": [46,15],
-    "motChieu": false,
-    "listSoNha": [12,13,14,15,16,17,18,19,2,21,22,23]
-  },
-  {
-    "canh": 16,
-    "giaoDiem": [15,16],
-    "motChieu": false,
-    "listSoNha": [23,25]
-  },
-  {
-    "canh": 17,
-    "giaoDiem": [16,17],
-    "motChieu": false,
-    "listSoNha": [27]
-  },
-  {
-    "canh": 18,
-    "giaoDiem": [16,18],
-    "motChieu": false,
-    "listSoNha": [27,28, 29,30,31]
-  },
-  {
-    "canh": 19,
-    "giaoDiem": [18,19],
-    "motChieu": false,
-    "listSoNha": [49,50,51,52,53,54,55,56,57,58,59]
-  },
-  {
-    "canh": 20,
-    "giaoDiem": [18,20],
-    "motChieu": false,
-    "listSoNha": []
-  },
-  {
-    "canh": 21,
-    "giaoDiem": [18,21],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6,7,8,9]
-  },
-  {
-    "canh": 22,
-    "giaoDiem": [18,22],
-    "motChieu": false,
-    "listSoNha": [59,60,61,62,63,64,65,66]
-  },
-  {
-    "canh": 23,
-    "giaoDiem": [22,47],
-    "motChieu": false,
-    "listSoNha": [59,58,57]
-  },
-  {
-    "canh": 24,
-    "giaoDiem": [47,23],
-    "motChieu": false,
-    "listSoNha": [56,55,54]
-  },
-  {
-    "canh": 25,
-    "giaoDiem": [22,24],
-    "motChieu": false,
-    "listSoNha": [59]
-  },
-  {
-    "canh": 26,
-    "giaoDiem": [25,15],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
-  },
-  {
-    "canh": 27,
-    "giaoDiem": [14,25],
-    "motChieu": false,
-    "listSoNha": [35,39,41,45,49,53,108,112]
-  },
-  {
-    "canh": 28,
-    "giaoDiem": [25,26],
-    "motChieu": false,
-    "listSoNha": [57]
-  },
-  {
-    "canh": 29,
-    "giaoDiem": [26,27],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4]
-  },
-  {
-    "canh": 30,
-    "giaoDiem": [6,43],
-    "motChieu": false,
-    "listSoNha": [72]
-  },
-  {
-    "canh": 31,
-    "giaoDiem": [28,29],
-    "motChieu": false,
-    "listSoNha": [1,3,5,7,9,11,13,15,17,19,21]
-  },
-  {
-    "canh": 32,
-    "giaoDiem": [7,29],
-    "motChieu": false,
-    "listSoNha": [1,3,5,7,9,11,13,15,17,19,21,10,12,16,20,22,24,30,44,52]
-  },
-  {
-    "canh": 33,
-    "giaoDiem": [29,30],
-    "motChieu": false,
-    "listSoNha": [29,30,31,32,33]
-  },
-  {
-    "canh": 34,
-    "giaoDiem": [30, 31],
-    "motChieu": false,
-    "listSoNha": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68,35, 37, 39, 41, 43, 45, 47, 49, 51]
-  },
-  {
-    "canh": 35,
-    "giaoDiem": [31, 32],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6,7,8,9,10,11,12]
-  },
-  {
-    "canh": 36,
-    "giaoDiem": [31, 33],
-    "motChieu": false,
-    "listSoNha": [59]
-  },
-  {
-    "canh": 37,
-    "giaoDiem": [31, 34],
-    "motChieu": false,
-    "listSoNha": []
-  },
-  {
-    "canh": 38,
-    "giaoDiem": [9, 11],
-    "motChieu": false,
-    "listSoNha": [1,2, 3, 4, 5,6, 7,8,9]
-  },
-  {
-    "canh": 39,
-    "giaoDiem": [11, 32],
-    "motChieu": false,
-    "listSoNha": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
-  },
-  {
-    "canh": 40,
-    "giaoDiem": [32, 39],
-    "motChieu": false,
-    "listSoNha": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
-  },
-  {
-    "canh": 41,
-    "giaoDiem": [33, 34],
-    "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-  },
-  {
-    "canh": 42,
-    "giaoDiem": [33, 35],
-    "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-  },
-  {
-    "canh": 43,
-    "giaoDiem": [34, 35],
-    "motChieu": false,
-    "listSoNha": []
-  },
-  {
-    "canh": 44,
-    "giaoDiem": [35, 37],
-    "motChieu": false,
-    "listSoNha": [59, 60, 61, 62, 63, 64, 65, 69]
-  },
-  {
-    "canh": 45,
-    "giaoDiem": [34, 36],
-    "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-  },
-  {
-    "canh": 46,
-    "giaoDiem": [36, 38],
-    "motChieu": false,
-    "listSoNha": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
-  },
-  {
-    "canh": 47,
-    "giaoDiem": [37, 38],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6,7,8,9]
-  },
-  {
-    "canh": 48,
-    "giaoDiem": [34, 40],
-    "motChieu": false,
-    "listSoNha":[29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-  },
-  {
-    "canh": 49,
-    "giaoDiem": [39,40],
-    "motChieu": false,
-    "listSoNha": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
-  },
-  {
-    "canh": 50,
-    "giaoDiem": [40, 41],
-    "motChieu": false,
-    "listSoNha": [60, 61, 62, 63, 64, 65, 66, 67]
-  },
-  {
-    "canh": 51,
-    "giaoDiem": [6, 14],
-    "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-  },
-  {
-    "canh": 52,
-    "giaoDiem": [26, 42],
-    "motChieu": false,
-    "listSoNha": [63, 64, 65, 66, 67, 68, 69, 70, 71]
-  },
-  {
-    "canh": 53,
-    "giaoDiem": [42, 48],
-    "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-  },
-  {
-    "canh": 54,
-    "giaoDiem": [48, 49],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6]
-  },
-  {
-    "canh": 55,
-    "giaoDiem": [43, 49],
-    "motChieu": false,
-    "listSoNha": [1,2,3,4,5,6,7]
-  },
-  {
-    "canh": 56,
-    "giaoDiem": [42, 44],
-    "motChieu": false,
-    "listSoNha": [73, 74, 75, 76, 77, 78, 79]
-  },
-  {
-    "canh": 57,
-    "giaoDiem": [45, 44],
-    "motChieu": false,
-    "listSoNha": [81,82,83]
-  }
-]
+    {
+      "canh": 1,
+      "tenDuong": "Quốc Tử Giám",
+      "dinh": [1,2],
+      "motChieu": false,
+      "listSoNha": [59,61]
+    },
+    {
+      "canh": 2,
+      "tenDuong": "Ngõ 63, Quốc Tử Giám",
+      "dinh": [2,3],
+      "motChieu": false,
+      "listSoNha": [1,2,3]
+    },
+    {
+      "canh": 3,
+      "tenDuong": "Quốc Tử Giám",
+      "dinh": [2,4],
+      "motChieu": false,
+      "listSoNha": [63]
+    },
+    {
+      "canh": 4,
+      "tenDuong": "Ngõ 65, Quốc Tử Giám",
+      "dinh": [4,5],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5]
+    },
+    {
+      "canh": 5,
+      "tenDuong": "Quốc Tử Giám",
+      "dinh": [4,6],
+      "motChieu": false,
+      "listSoNha": [65,67,69,71]
+    },
+    {
+      "canh": 6,
+      "tenDuong": "Cát Linh",
+      "dinh": [6,7],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6,7,8,9,10,11,12]
+    },
+    {
+      "canh": 7,
+      "tenDuong": "Cát Linh",
+      "dinh": [7,8],
+      "motChieu": false,
+      "listSoNha": [12]
+    },
+    {
+      "canh": 8,
+      "tenDuong": "Cát Linh",
+      "dinh": [8,9],
+      "motChieu": false,
+      "listSoNha": [13,15]
+    },
+    {
+      "canh": 9,
+      "tenDuong": "Bích Câu",
+      "dinh": [8,10],
+      "motChieu": false,
+      "listSoNha": [2,4,6,8,10]
+    },
+    {
+      "canh": 10,
+      "tenDuong": "ngõ 10, Bích Câu",
+      "dinh": [10,11],
+      "motChieu": false,
+      "listSoNha": [10]
+    },
+    {
+      "canh": 11,
+      "tenDuong": "Bích Câu",
+      "dinh": [10,12],
+      "motChieu": false,
+      "listSoNha": [12,16,20,24,28,32,40]
+    },
+    {
+      "canh": 12,
+      "tenDuong": "Ngõ 14, Bích Câu",
+      "dinh": [12,13],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5]
+    },
+    {
+      "canh": 13,
+      "tenDuong": "Bích Câu",
+      "dinh": [12,30],
+      "motChieu": false,
+      "listSoNha": [44, 46, 48, 50, 52, 54, 56, 58, 60]
+    },
+    {
+      "canh": 14,
+      "tenDuong": "Hồ Giám",
+      "dinh": [14,46],
+      "motChieu": false,
+      "listSoNha": [2,4,6,8,10,12,14,16,5,9,13,17,21,25]
+    },
+    {
+      "canh": 15,
+      "tenDuong": "Hồ Giám",
+      "dinh": [46,15],
+      "motChieu": false,
+      "listSoNha": [118,20,22,24,26,28,32,34,29,33,37]
+    },
+    {
+      "canh": 16,
+      "tenDuong": "Ngõ Thông Phong",
+      "dinh": [15,16],
+      "motChieu": false,
+      "listSoNha": [21,22,23,24,25,26]
+    },
+    {
+      "canh": 17,
+      "tenDuong": "Ngách 25 Ngõ Thông Phong",
+      "dinh": [16,17],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6,7]
+    },
+    {
+      "canh": 18,
+      "tenDuong": "Ngõ Thông Phong",
+      "dinh": [16,18],
+      "motChieu": false,
+      "listSoNha": [26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46]
+    },
+    {
+      "canh": 19,
+      "tenDuong": "Ngách 41, ngõ Thông Phong",
+      "dinh": [18,19],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+    },
+    {
+      "canh": 20,
+      "tenDuong": "Ngách 42, ngõ Thông Phong",
+      "dinh": [18,20],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    {
+      "canh": 21,
+      "tenDuong": "Ngách 64 Ng. Thông Phong",
+      "dinh": [18,21],
+      "motChieu": false,
+      "listSoNha": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+    },
+    {
+      "canh": 22,
+      "tenDuong": "Ngõ Thông Phong",
+      "dinh": [18,22],
+      "motChieu": false,
+      "listSoNha": [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+    },
+    {
+      "canh": 23,
+      "tenDuong": "Ngách 53, ngõ Thông Phong",
+      "dinh": [22,47],
+      "motChieu": false,
+      "listSoNha": [53]
+    },
+    {
+      "canh": 24,
+      "tenDuong": "Ngách 53, ngõ Thông Phong",
+      "dinh": [47,23],
+      "motChieu": false,
+      "listSoNha": [53]
+    },
+    {
+      "canh": 25,
+      "tenDuong": "Ngõ Thông Phong",
+      "dinh": [22,24],
+      "motChieu": false,
+      "listSoNha": [72]
+    },
+    {
+      "canh": 26,
+      "tenDuong": "Unknow",
+      "dinh": [25,15],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    },
+    {
+      "canh": 27,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [14,25],
+      "motChieu": false,
+      "listSoNha": [39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 106, 108, 110, 112, 114, 116, 118, 120, 122]
+    },
+    {
+      "canh": 28,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [25,26],
+      "motChieu": false,
+      "listSoNha": [57,59,61, 124, 126, 128, 130,132]
+    },
+    {
+      "canh": 29,
+      "tenDuong": "Ngõ 61, Tôn Đức Thắng",
+      "dinh": [26,27],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+    },
+    {
+      "canh": 30,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [26,28],
+      "motChieu": false,
+      "listSoNha": [63,134,136,138,140]
+    },
+    {
+      "canh": 31,
+      "tenDuong": "Đoàn Thị Điểm",
+      "dinh": [28,29],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    },
+    {
+      "canh": 32,
+      "tenDuong": "Đặng Trần Côn",
+      "dinh": [7,29],
+      "motChieu": false,
+      "listSoNha": [1,3,5,7,9,11,13,15,17,19,21,10,12,16,20,22,24,30,44,52]
+    },
+    {
+      "canh": 33,
+      "tenDuong": "Đoàn Thị Điểm",
+      "dinh": [29,30],
+      "motChieu": false,
+      "listSoNha": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    },
+    {
+      "canh": 34,
+      "tenDuong": "Đoàn Thị Điểm",
+      "dinh": [30, 31],
+      "motChieu": false,
+      "listSoNha": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+    },
+    {
+      "canh": 35,
+      "tenDuong": "Ngõ 68, Đoàn Thị Điểm",
+      "dinh": [31, 32],
+      "motChieu": true,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,22,23]
+    },
+    {
+      "canh": 36,
+      "tenDuong": "Đoàn Thị Điểm",
+      "dinh": [31, 33],
+      "motChieu": false,
+      "listSoNha": [57,59]
+    },
+    {
+      "canh": 37,
+      "tenDuong": "Đoàn Thị Điểm",
+      "dinh": [31, 34],
+      "motChieu": false,
+      "listSoNha": [30]
+    },
+    {
+      "canh": 38,
+      "tenDuong": "An Trạch",
+      "dinh": [9, 11],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "canh": 39,
+      "tenDuong": "An Trạch",
+      "dinh": [11, 32],
+      "motChieu": false,
+      "listSoNha": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    },
+    {
+      "canh": 40,
+      "tenDuong": "An Trạch",
+      "dinh": [32, 39],
+      "motChieu": false,
+      "listSoNha": [34,35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
+    },
+    {
+      "canh": 41,
+      "tenDuong": "Ngõ An Trạch 1",
+      "dinh": [33, 34],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+    },
+    {
+      "canh": 42,
+      "tenDuong": "Ngõ An Trạch 2",
+      "dinh": [33, 35],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "canh": 43,
+      "tenDuong": "Ngách 20, ngõ An Trạch 2",
+      "dinh": [34, 35],
+      "motChieu": false,
+      "listSoNha": [11,13,15]
+    },
+    {
+      "canh": 44,
+      "tenDuong": "Ngõ An Trạch 2",
+      "dinh": [35, 37],
+      "motChieu": false,
+      "listSoNha": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    },
+    {
+      "canh": 45,
+      "tenDuong": "Ngách 29, ngõ An An Trạch 1",
+      "dinh": [34, 36],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "canh": 46,
+      "tenDuong": "Ngách 29, ngõ An An Trạch 1",
+      "dinh": [36, 38],
+      "motChieu": false,
+      "listSoNha": [35,36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+    },
+    {
+      "canh": 47,
+      "tenDuong": "Ngách 86, ngõ An Trạch 2",
+      "dinh": [37, 38],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6]
+    },
+    {
+      "canh": 48,
+      "tenDuong": "Ngõ An Trạch 1",
+      "dinh": [34, 40],
+      "motChieu": false,
+      "listSoNha":[41, 43, 45, 47, 49, 51, 53, 55]
+    },
+    {
+      "canh": 49,
+      "tenDuong": "Ngõ An Trạch 1",
+      "dinh": [39,40],
+      "motChieu": false,
+      "listSoNha": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20,57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85]
+    },
+    {
+      "canh": 50,
+      "tenDuong": "Ngách 57, ngõ An Trạch 1",
+      "dinh": [40, 41],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6]
+    },
+    {
+      "canh": 51,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [6, 14],
+      "motChieu": false,
+      "listSoNha": [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35,78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104]
+    },
+    {
+      "canh": 52,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [26, 42],
+      "motChieu": false,
+      "listSoNha": [65,67,69,142,144,146]
+    },
+    {
+      "canh": 53,
+      "tenDuong": "Ngõ 69, Tôn Đức Thắng",
+      "dinh": [42, 48],
+      "motChieu": false,
+      "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,14,15,16,17,18,19]
+    },
+    {
+      "canh": 54,
+      "tenDuong": "Ngõ 85, Tôn Đức Thắng",
+      "dinh": [48, 49],
+      "motChieu": false,
+      "listSoNha": [8,9,10,11,12,13,14]
+    },
+    {
+      "canh": 55,
+      "tenDuong": "Ngõ 85, Tôn Đức Thắng",
+      "dinh": [43, 49],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5,6,7]
+    },
+    {
+      "canh": 56,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [42, 44],
+      "motChieu": false,
+      "listSoNha": [71,73,75,77,79,148,150,152,154,156]
+    },
+    {
+      "canh": 57,
+      "tenDuong": "Ngõ 83, Tôn Đức Thắng",
+      "dinh": [45, 44],
+      "motChieu": false,
+      "listSoNha": [1,2,3,4,5]
+    },
+    {
+      "canh": 58,
+      "tenDuong": "Tôn Đức Thắng",
+      "dinh": [43, 44],
+      "motChieu": false,
+      "listSoNha": [81,83,85,158,160]
+    }
+  ]
