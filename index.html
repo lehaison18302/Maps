@@ -22,41 +22,41 @@
           </div>
           <div class="KetQua" id="result">
             <label for="ketqua">Kết quả: </label> <br>
-            <table>
+            <table border="1" id="street-table" >
+              <thead>
+                <tr>
+                  <th>Tên đường</th>
+                  <th>Số ngõ</th>
+                </tr>
+                <tr>
+                  <td>Đặng Trần Côn</td>
+                  <td>Ngõ 58</td>
+                </tr>
+                <tr>
+                  <td>Đặng Trần Côn</td>
+                  <td>Ngõ 70</td>
+                </tr>
+              </thead>
+              <tbody id="street-list">
+              </tbody>
+            </table>
           </div>
         </form>
-        
-      </div>
-        </br>
-        <div class="input-group" id="end-group">
-          <label>Điểm cuối:</label>
+
+        <div class="input-group" id="start-group">
+          <label>ID Điểm đầu:</label>
+          <input id="start-id">
+          <label>Số nhà:</label>
+          <input id="start-number">
           <div></div>
-          <div class="input-section" id="Duong-end-section">
-            <label for="Duong-end">Đường:</label>
-            <select class="input" id="Duong-end">
-              <option value="" selected>Không</option>
-            </select>
-          </div>
-          <div class="input-section" id="Ngo-end-section">
-            <label for="Ngo-end">Ngõ:</label>
-            <select class="input" id="Ngo-end">
-              <option value="" selected>Không</option>
-            </select>
-          </div>
-          <div class="input-section" id="SoNha-end-section">
-            <label for="SoNha-end">Số nhà:</label>
-            <select class="input" id="SoNha-end">
-              <option value="" selected>Không</option>
-            </select>
-          </div>
+        <div class="input-group" id="end-group">
+          <label >ID điểm cuối:</label>
+          <input id="end-id">
+          <label>Số nhà:</label>
+          <input id="end-number">
+          <div></div>
         </div>
-        </br>
         <button id="submit">Submit</button>
-        </br>
-        </br>
-        <div class="debug-group">
-          <button class="debug-buttons" id="delete_canvas">Xóa đường đi</button>
-        </div>
       </div>   
       <br />
       <div id="board">
