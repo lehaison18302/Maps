@@ -21,24 +21,32 @@
 <body>
     <div class="container" style="margin: 40px auto">
         <div class="row">
-            <script src="chon_duong.js"></script>
             <div class="col-md-5">
                 <div class="col-md-12" style="padding: 20px;">
                     <label for="floatingInput" style="font-weight: 500;padding: 10px 0;">Tên Đường</label>
-                    <input type="text" id="tenDuong" class="form-control" placeholder="Nhập thông tin ">
-                    <button id="submitButton">Submit</button>
+                    <input type="text" id="tenDuong" name="tenDuong" class="form-control" placeholder="Nhập thông tin ">
                 </div>
                 <div class="col-md-12 results" id="results" style="padding: 20px;">
                     <label for="results" style="font-weight: 500;padding: 10px 0;">Kết quả</label>
-                    <table class="table table-striped" id="table-striped">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">ID</th>
+                                <th scope="col">#</th>
                                 <th>Tên đường</th>
                                 <th>Số ngõ</th>
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Đặng Trần Côn</td>
+                                <td>Ngõ 58</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Đặng Trần Côn</td>
+                                <td>Ngõ 70</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -62,12 +70,15 @@
                         <input type="text" id="end_number" name="end_number" class="form-control" placeholder="Nhập thông tin ">
                     </div>
                 </div>
+                <div class="col-md-12" style="padding: 8px;justify-content: center;display: flex">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
             <div class="col-md-7" style="border: 1px solid; border-radius: 20px; padding: 0" id="board">
-                <img id="image" 
+                <!-- <img id="image" 
                      src="https://scontent.fhan15-2.fna.fbcdn.net/v/t1.15752-9/356443458_960095298597829_8262802948759934911_n.png?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bvx-fHuR-ywAX_DH7CQ&_nc_ht=scontent.fhan15-2.fna&oh=03_AdQNMHjK-OqBLePieQSzz-lzyLQD1qCyhpgJ9EsbWOettw&oe=64BF1666" 
                      style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px"     
-                />
+                /> -->
                 <canvas class="canvas" id="point" width="100%" height="100%"></canvas>
                 <canvas class="canvas" id="myCanvas" width="100%" height="100%"></canvas>
             </div>
